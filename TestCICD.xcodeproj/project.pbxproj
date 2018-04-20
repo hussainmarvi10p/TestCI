@@ -12,6 +12,10 @@
 		75468ED52089FFC300FF4C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75468ED32089FFC300FF4C60 /* Main.storyboard */; };
 		75468ED72089FFC300FF4C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75468ED62089FFC300FF4C60 /* Assets.xcassets */; };
 		75468EDA2089FFC300FF4C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75468ED82089FFC300FF4C60 /* LaunchScreen.storyboard */; };
+		75468EE2208A191B00FF4C60 /* KeyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75468EE1208A191B00FF4C60 /* KeyConstants.swift */; };
+		75468EE4208A192100FF4C60 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75468EE3208A192100FF4C60 /* NetworkService.swift */; };
+		75468EE6208A192700FF4C60 /* NetworkAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75468EE5208A192700FF4C60 /* NetworkAdaptor.swift */; };
+		75468EE8208A193F00FF4C60 /* NetworkDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75468EE7208A193F00FF4C60 /* NetworkDataResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		75468ED62089FFC300FF4C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75468ED92089FFC300FF4C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75468EDB2089FFC300FF4C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75468EE1208A191B00FF4C60 /* KeyConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyConstants.swift; sourceTree = "<group>"; };
+		75468EE3208A192100FF4C60 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		75468EE5208A192700FF4C60 /* NetworkAdaptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAdaptor.swift; sourceTree = "<group>"; };
+		75468EE7208A193F00FF4C60 /* NetworkDataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkDataResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +62,11 @@
 		75468ECE2089FFC300FF4C60 /* TestCICD */ = {
 			isa = PBXGroup;
 			children = (
+				75468EE7208A193F00FF4C60 /* NetworkDataResponse.swift */,
+				75468EE3208A192100FF4C60 /* NetworkService.swift */,
 				75468ECF2089FFC300FF4C60 /* AppDelegate.swift */,
+				75468EE5208A192700FF4C60 /* NetworkAdaptor.swift */,
+				75468EE1208A191B00FF4C60 /* KeyConstants.swift */,
 				75468ED12089FFC300FF4C60 /* ViewController.swift */,
 				75468ED32089FFC300FF4C60 /* Main.storyboard */,
 				75468ED62089FFC300FF4C60 /* Assets.xcassets */,
@@ -138,6 +150,10 @@
 			files = (
 				75468ED22089FFC300FF4C60 /* ViewController.swift in Sources */,
 				75468ED02089FFC300FF4C60 /* AppDelegate.swift in Sources */,
+				75468EE4208A192100FF4C60 /* NetworkService.swift in Sources */,
+				75468EE8208A193F00FF4C60 /* NetworkDataResponse.swift in Sources */,
+				75468EE6208A192700FF4C60 /* NetworkAdaptor.swift in Sources */,
+				75468EE2208A191B00FF4C60 /* KeyConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
